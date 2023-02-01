@@ -13,10 +13,10 @@
  * (1) https://ckeditor.com/cke4/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) https://ckeditor.com/cke4/builder/2ee2371308d092c51102ac20c5a4930d
+ * (2) https://ckeditor.com/cke4/builder/f2093b52677327f06b23f5f0e36260d1
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) https://ckeditor.com/cke4/builder/download/2ee2371308d092c51102ac20c5a4930d
+ * (3) https://ckeditor.com/cke4/builder/download/f2093b52677327f06b23f5f0e36260d1
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -55,25 +55,19 @@ var CKBUILDER_CONFIG = {
 	],
 	plugins : {
 		'a11yhelp' : 1,
+		'about' : 1,
 		'basicstyles' : 1,
 		'bidi' : 1,
-		'blockimagepaste' : 1,
 		'blockquote' : 1,
-		'bootstrapTable' : 1,
-		'ckeditor_fa' : 1,
-		'ckeditorfasix' : 1,
 		'clipboard' : 1,
-		'codemirror' : 1,
 		'colorbutton' : 1,
 		'colordialog' : 1,
 		'contextmenu' : 1,
 		'copyformatting' : 1,
 		'dialogadvtab' : 1,
 		'div' : 1,
-		'easyimage' : 1,
 		'editorplaceholder' : 1,
 		'elementspath' : 1,
-		'emoji' : 1,
 		'enterkey' : 1,
 		'entities' : 1,
 		'exportpdf' : 1,
@@ -97,14 +91,11 @@ var CKBUILDER_CONFIG = {
 		'magicline' : 1,
 		'maximize' : 1,
 		'newpage' : 1,
-		'numericinput' : 1,
 		'pagebreak' : 1,
 		'pastefromgdocs' : 1,
 		'pastefromlibreoffice' : 1,
 		'pastefromword' : 1,
 		'pastetext' : 1,
-		'pbckcode' : 1,
-		'powrmediagallery' : 1,
 		'preview' : 1,
 		'print' : 1,
 		'removeformat' : 1,
@@ -125,13 +116,8 @@ var CKBUILDER_CONFIG = {
 		'templates' : 1,
 		'toolbar' : 1,
 		'undo' : 1,
-		'uploadfile' : 1,
 		'uploadimage' : 1,
-		'video' : 1,
-		'videoembed' : 1,
-		'wysiwygarea' : 1,
-		'youtube' : 1,
-		'zoom' : 1
+		'wysiwygarea' : 1
 	},
 	languages : {
 		'en' : 1,
